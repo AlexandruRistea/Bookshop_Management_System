@@ -30,17 +30,15 @@ The program is divided into several modules that handle different aspects of the
 - **`Terminal.h`**: The file that handles user commands in the terminal, such as adding books and displaying the library.
 - **`Carti.txt`**: A text file containing sample book data. You can load this file into the system to populate the library with books.
 
-## How to Compile and Run
+## Compile and Run
 
-1. Save all the files in a folder on your computer.
-2. Open a terminal and navigate to the folder containing the files.
-3. Compile the project using a C compiler (e.g., GCC):
+1. Compile the project using a C compiler (e.g., GCC):
 
     ```sh
     gcc Proiect.c -o library_system
     ```
 
-4. Run the compiled program:
+2. Run the compiled program:
 
     ```sh
     ./library_system
